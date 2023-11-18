@@ -1,0 +1,67 @@
+.error{
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+.content{
+    min-height: 100vh;
+    background-image: linear-gradient(lightpink, lightcoral);
+}
+
+.content h1{
+    padding-top: 2em;
+    text-align: center;
+    color: red;
+    letter-spacing: 4px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-image: linear-gradient(to top right, lightpink, lightcoral);
+    min-height: 100vh;
+}
+
+.form{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+}
+
+.form div{
+    padding: 10px;
+}
+
+.form div input {
+    padding: 10px;
+}
+
+.form select{
+    justify-content: center;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.form button{
+    display: inline-flex;
+    margin-top: 2em;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    padding: 10px;
+}
